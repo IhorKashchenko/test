@@ -1,0 +1,25 @@
+{
+  "name": "my-project",
+  "version": "10.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "cypress": "cypress run --e2e",
+    "cypress:open": "cypress open --e2e"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "Ihor Kashchenko",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  }
+}
