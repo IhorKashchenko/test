@@ -6,3 +6,5 @@ cypress/videos/
 
 # Files
 .DS_Store
+cypress/reports/html/assets
+cypress/reports/html/videos
