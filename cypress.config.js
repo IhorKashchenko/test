@@ -5,8 +5,10 @@ module.exports = defineConfig({
   fixturesFolder: 'cypress/fixtures',
   screenshotsFolder: 'cypress/screenshots',
   videosFolder: 'cypress/videos',
+  reporter: 'cypress-mochawesome-reporter',
   e2e: {
     setupNodeEvents(on, config) {
+      require('cypress-mochawesome-reporter/plugin')(on);
       /* 
       If you have any custom Cypress logic you want to implement, put it in this function.
       For more info, see https://docs.cypress.io/guides/tooling/plugins-guide
